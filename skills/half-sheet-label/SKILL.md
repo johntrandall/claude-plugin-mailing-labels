@@ -35,10 +35,10 @@ name = "Office_Laser"      # your CUPS queue name: see `lpstat -p`
 label_slot = "Tray2"       # the InputSlot keyword of the tray with label stock: see `lpoptions -p <name> -l | grep -i slot`
 ```
 
-Without a config file the tool falls back to its author's printer name, which will not exist
-on your Mac: set the config, or pass `-P <printer>` and `--slot <slot>` every time.
-If the user has not set this up yet, ask which printer and tray hold the label stock, write the
-config, and confirm with `half-sheet-label <pdf> --dry-run` before the first real print.
+Without a config file the tool (0.3.1 or later) prints to the CUPS default printer and asks
+for the `Tray2` slot, falling back to a bypass tray if the printer has no Tray 2. If the user
+has not set this up yet, ask which printer and tray hold the label stock, write the config, and
+confirm with `half-sheet-label <pdf> --dry-run` before the first real print.
 
 ## Usage
 

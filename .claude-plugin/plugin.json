@@ -1,10 +1,20 @@
 {
   "name": "mailing-labels",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Print shipping and return label PDFs onto peel-and-stick half-sheet sticker stock (half-sheet-label), and QR codes or images with a caption onto plain paper (print-qr). macOS + CUPS.",
-  "author": { "name": "John Randall", "url": "https://github.com/johntrandall" },
+  "author": {
+    "name": "John Randall",
+    "url": "https://github.com/johntrandall"
+  },
   "homepage": "https://github.com/johntrandall/claude-plugin-mailing-labels",
   "repository": "https://github.com/johntrandall/claude-plugin-mailing-labels",
   "license": "MIT",
-  "keywords": ["labels", "shipping", "returns", "printing", "qr", "cups"]
+  "keywords": [
+    "labels",
+    "shipping",
+    "returns",
+    "printing",
+    "qr",
+    "cups"
+  ]
 }
